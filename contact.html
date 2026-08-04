@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Alexis Yoo</title>
+<meta name="description" content="Contact Alexis Yoo.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="header-inner">
+    <div class="mark"><a href="index.html">Alexis Yoo</a></div>
+    <nav class="pages" aria-label="Site">
+      <a href="index.html"><span class="num">00</span>Home</a>
+      <a href="about.html"><span class="num">01</span>About</a>
+      <a href="contact.html" aria-current="page"><span class="num">02</span>Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <p class="eyebrow">02 — Contact</p>
+    <h2 style="font-size: 2rem; font-style: italic;">Get in touch</h2>
+
+    <p class="contact-block">
+      <a class="contact-email" href="mailto:alexisyoo94@gmail.com">alexisyoo94@gmail.com</a>
+    </p>
+
+    <hr class="rule">
+
+    <!--
+      This form needs a free Formspree account (formspree.io) to actually
+      deliver messages — GitHub Pages can't run server-side code.
+      Replace YOUR_FORM_ID below with the ID Formspree gives you after signup.
+      Until then, this form will not send anywhere — the mailto link above
+      works immediately with no setup.
+    -->
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="_replyto" required>
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button class="submit" type="submit">Send message</button>
+      <p class="note">Form delivery requires a one-time Formspree setup — see note in the page source. The email link above works right away.</p>
+    </form>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>&copy; 2026 Alexis Yoo</span>
+    <span>alexisyoo.com</span>
+  </div>
+</footer>
+
+</body>
+</html>
