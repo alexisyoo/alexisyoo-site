@@ -60,6 +60,7 @@ nav.pages {
   text-transform: uppercase;
   display: flex;
   gap: 28px;
+  margin-left: auto;
 }
 nav.pages a {
   text-decoration: none;
