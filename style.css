@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,340;0,9..144,440;0,9..144,560;1,9..144,440&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&display=swap');
 
 :root {
-  --bg: #faf9f6;
+  --bg: #dfe0e5;
   --ink: #1e1c19;
-  --ink-dim: #716a5d;
-  --rule: #e4dfd3;
+  --ink-dim: #76767c;
+  --rule: #ccced5;
   --accent: #7c5c3e;   /* quiet warm brown, used sparingly */
   --max: 900px;
 }
